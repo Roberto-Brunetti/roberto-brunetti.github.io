@@ -1,0 +1,92 @@
+{
+  "published": [
+    {
+      "year": 2026,
+      "title": "Do grades have absolute meaning? An experiment on majority judgment",
+      "authors": "T. Delemazure, A. Baujard, R. Brunetti, S. Bouveret",
+      "venue": "Social Choice & Welfare",
+      "status": "",
+      "abstract": "Explores whether grade labels convey consistent meaning across voters in majority judgment voting, using an online experiment (N=1,955) on French presidential elections. Grade distributions are significantly affected by the scale used.",
+      "links": [],
+      "selected": true
+    },
+    {
+      "year": 2026,
+      "title": "Land, wealth, and taxation",
+      "authors": "R. Brunetti, C. Gaigné, F. Moizeau",
+      "venue": "American Economic Journal: Microeconomics",
+      "status": "forthcoming",
+      "abstract": "Examines land's role in wealth inequality and develops an optimal tax approach combining land value taxation with lifetime wealth taxation.",
+      "links": [],
+      "selected": true
+    },
+    {
+      "year": 2026,
+      "title": "Representative policymakers? A behavioural experiment with French politicians",
+      "authors": "R. Brunetti, M. Pourieux",
+      "venue": "Economica",
+      "status": "",
+      "abstract": "A behavioural experiment (N=1,415) analysing the alignment between politicians' decisions and citizens' preferences in taxation–redistribution scenarios.",
+      "links": [],
+      "selected": true
+    },
+    {
+      "year": 2025,
+      "title": "How people understand voting rules",
+      "authors": "A. Baujard, R. Brunetti, I. Lebon, S. Marsilio",
+      "venue": "Public Choice",
+      "status": "",
+      "abstract": "A lab experiment examining comprehension of evaluative voting and majority judgment, finding heterogeneous understanding of vote aggregation under majority judgment.",
+      "links": [],
+      "selected": true
+    },
+    {
+      "year": 2023,
+      "title": "Credit market imperfections, urban land rents, and the Henry George theorem",
+      "authors": "R. Brunetti, C. Gaigné, F. Moizeau",
+      "venue": "Revue économique, 74, 681–703",
+      "status": "",
+      "abstract": "Analyses credit market effects on urban land pricing and derives optimal tax schedules under mortgage constraints.",
+      "links": [],
+      "selected": false
+    }
+  ],
+  "working": [
+    {
+      "year": 2025,
+      "title": "Trickle-down economics, merit, and redistribution: an experiment with the poorest and richest US Americans",
+      "authors": "G. Grimalda, M. Marino, R. Brunetti",
+      "venue": "",
+      "status": "under review",
+      "abstract": "An experimental study (N=2,346) investigating redistribution attitudes among extreme income groups, finding that philanthropic donations reduce redistribution demand among lower-income participants.",
+      "links": []
+    },
+    {
+      "year": 2025,
+      "title": "Municipalities' voting power and housing supply: evidence from French intermunicipal cooperation",
+      "authors": "R. Brunetti",
+      "venue": "",
+      "status": "under review",
+      "abstract": "Analyses how voting power shifts within local government councils affect housing density composition following municipal reform.",
+      "links": []
+    }
+  ],
+  "wip": [
+    {
+      "title": "Mediation, fairness, and efficiency in bargaining",
+      "authors": "with J. V. Ferreira, B. Tarroux"
+    },
+    {
+      "title": "United we fall? Reelection of mayors in merged municipalities",
+      "authors": "with P. Mille, S. Paty"
+    },
+    {
+      "title": "Merit, environmental externalities, and redistribution: an experiment",
+      "authors": "with F. Gonzalez, M. Marino, J. Mollerstrom"
+    },
+    {
+      "title": "An experiment on the number of candidates in approval voting",
+      "authors": "with A. Baujard, J. Lang, T. Delemazure"
+    }
+  ]
+}
