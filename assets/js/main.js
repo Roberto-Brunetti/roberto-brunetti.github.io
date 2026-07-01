@@ -1,21 +1,6 @@
 /* ============================================================
-   Shared behaviour: theme toggle + publication rendering.
+   Publication + co-author rendering from data/publications.json.
    ============================================================ */
-
-/* ---------- theme ---------- */
-(function initTheme() {
-  const stored = localStorage.getItem("theme");
-  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const theme = stored || (prefersDark ? "dark" : "light");
-  document.documentElement.setAttribute("data-theme", theme);
-})();
-
-function toggleTheme() {
-  const current = document.documentElement.getAttribute("data-theme");
-  const next = current === "dark" ? "light" : "dark";
-  document.documentElement.setAttribute("data-theme", next);
-  localStorage.setItem("theme", next);
-}
 
 /* ---------- escaping ---------- */
 function esc(s) {
@@ -26,9 +11,14 @@ function esc(s) {
 
 /* ---------- one publication card ---------- */
 function pubCard(p, idx) {
-  const venue = p.venue ? `<span class="venue">${esc(p.venue)}</span>` : "";
-  const status = p.status ? `<span class="status">${venue ? " · " : ""}${esc(p.status)}</span>` : "";
-  const sep = p.venue || p.status ? " · " : "";
+  // citation: Authors (Year). Venue, status.
+  let cite = esc(p.authors);
+  if (p.year) cite += ` (${esc(p.year)})`;
+  if (!/[.!?]$/.test(cite)) cite += ".";
+  const tail = [];
+  if (p.venue) tail.push(`<span class="venue">${esc(p.venue)}</span>`);
+  if (p.status) tail.push(`<span class="status">${esc(p.status)}</span>`);
+  if (tail.length) cite += " " + tail.join(", ") + ".";
 
   const links = (p.links || [])
     .map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`)
@@ -48,14 +38,14 @@ function pubCard(p, idx) {
       ? `<div class="pub-links">${abstractToggle}${links}</div>`
       : "";
 
-  const yearBadge = p.year ? `<span class="year">${p.year}</span>` : "";
+  const numBadge = p._num ? `<span class="pnum">[${p._num}]</span>` : "";
 
   return `
     <article class="pub">
-      ${yearBadge}
+      ${numBadge}
       <div class="pub-body">
         <p class="title">${esc(p.title)}</p>
-        <p class="meta">${esc(p.authors)}${sep}${venue}${status}</p>
+        <p class="meta">${cite}</p>
         ${linkRow}
         ${abstract}
       </div>
@@ -81,26 +71,40 @@ function toggleAbstract(btn, id) {
 }
 
 /* ---------- loaders ---------- */
-async function loadPublications(mode) {
-  // mode: "selected" (home, 3 newest selected) or "all" (research page)
-  const res = await fetch("data/publications.json");
+async function loadPublications() {
+  const res = await fetch("data/publications.json", { cache: "no-cache" });
   const data = await res.json();
   let i = 0;
 
-  if (mode === "selected") {
-    const el = document.getElementById("selected-pubs");
-    if (!el) return;
-    const sel = data.published.filter((p) => p.selected).slice(0, 4);
-    el.innerHTML = sel.map((p) => pubCard(p, i++)).join("");
-    return;
+  // co-authors
+  const co = document.getElementById("coauthors");
+  if (co && data.coauthors) {
+    co.innerHTML = data.coauthors
+      .map((c) =>
+        c.url
+          ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)}</a>`
+          : `<span>${esc(c.name)}</span>`
+      )
+      .join("");
   }
 
+  // published & forthcoming — numbered newest (highest) to oldest
   const pub = document.getElementById("published-pubs");
-  if (pub) pub.innerHTML = data.published.map((p) => pubCard(p, i++)).join("");
+  if (pub) {
+    const n = data.published.length;
+    pub.innerHTML = data.published
+      .map((p, k) => {
+        p._num = n - k;
+        return pubCard(p, i++);
+      })
+      .join("");
+  }
 
+  // working papers — no number
   const work = document.getElementById("working-pubs");
   if (work) work.innerHTML = data.working.map((p) => pubCard(p, i++)).join("");
 
+  // work in progress
   const wip = document.getElementById("wip-pubs");
   if (wip) wip.innerHTML = data.wip.map((p) => wipCard(p)).join("");
 }

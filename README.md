@@ -6,15 +6,14 @@ framework. Hosted free on GitHub Pages.
 ## Structure
 
 ```
-index.html            Home: bio, news, interests, selected publications
+index.html            Home: bio, news, interests, links
 research.html         Full publication list (rendered from data/publications.json)
 teaching.html         Courses
-cv.html               Embedded + downloadable CV
 data/publications.json   ← your publications live here
 assets/css/style.css     Design (colours, layout, light/dark theme)
 assets/js/main.js        Theme toggle + publication rendering
-assets/img/profile.jpg   Your photo (add this)
-assets/cv.pdf            Your CV (add this)
+assets/img/profile.jpg   Your photo
+CV/CV.pdf                Your CV (linked from the home page)
 ```
 
 ## Adding a publication
@@ -45,15 +44,11 @@ Edit `data/publications.json`. Add an object to `published`, `working`, or
 
 That's the whole workflow: edit the JSON, commit, push.
 
-## Things to fill in
+## Updating content
 
-A few placeholders are marked in the code:
-
-1. **Photo** — add `assets/img/profile.jpg` (square works best, ~600×600).
-2. **CV** — add `assets/cv.pdf`.
-3. **Google Scholar link** — in `index.html`, replace `href="#"` on the Scholar
-   button with your profile URL.
-4. **News** — update the list in `index.html` under `<!-- ===== news ===== -->`.
+- **News** — edit the list in `index.html` under `<!-- ===== news ===== -->`.
+- **Photo** — replace `assets/img/profile.jpg`.
+- **CV** — replace `CV/CV.pdf`.
 
 ## Previewing locally
 

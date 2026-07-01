@@ -1,74 +1,105 @@
 {
+  "coauthors": [
+    { "name": "Antoinette Baujard" },
+    { "name": "Sylvain Bouveret" },
+    { "name": "Théo Delemazure" },
+    { "name": "João V. Ferreira" },
+    { "name": "Carl Gaigné" },
+    { "name": "Federico Gonzalez" },
+    { "name": "Gianluca Grimalda" },
+    { "name": "Jérôme Lang" },
+    { "name": "Isabelle Lebon" },
+    { "name": "Maria Marino" },
+    { "name": "Simone Marsilio" },
+    { "name": "Pauline Mille" },
+    { "name": "Fabien Moizeau" },
+    { "name": "Johanna Mollerstrom" },
+    { "name": "Sonia Paty" },
+    { "name": "Matthieu Pourieux" },
+    { "name": "Benoit Tarroux" }
+  ],
   "published": [
     {
-      "year": 2026,
       "title": "Do grades have absolute meaning? An experiment on majority judgment",
-      "authors": "T. Delemazure, A. Baujard, R. Brunetti, S. Bouveret",
+      "authors": "Delemazure, T., Baujard, A., Brunetti, R. & Bouveret, S.",
+      "year": 2026,
       "venue": "Social Choice & Welfare",
       "status": "",
-      "abstract": "Explores whether grade labels convey consistent meaning across voters in majority judgment voting, using an online experiment (N=1,955) on French presidential elections. Grade distributions are significantly affected by the scale used.",
-      "links": [],
-      "selected": true
+      "abstract": "Whether in education, performance reviews, or elections, grades serve as tools for assessment, yet the universality of their meanings remains an open question. When voting under majority judgment, voters assign verbal grades such as \"excellent, very good, good, fairly good, acceptable, insufficient, to reject\" to each candidate. The meaning of these grades should be clear and consistent across all voters. Balinski and Laraki (2011) describe this as a \"common language\" and claim that the grade labels convey absolute meaning. This paper tests the assumption of absolute meaning by examining whether the meaning of a grade depends on the grading scale (i.e., framing effect) in a political context. We conducted an online experiment (N=1,955) in which participants voted for candidates to the French presidential elections under majority judgment with grading scales with different numbers of grades. Our findings indicate that the grade distributions obtained by candidates are significantly influenced by the grading scales available to voters. Our data therefore rejects the assertion that grades convey absolute meaning, showing instead that their interpretation depends on the number of grades available.",
+      "links": [
+        { "label": "Paper", "url": "https://link.springer.com/epdf/10.1007/s00355-026-01665-7?sharing_token=m6FrJ6DtlgTaUeKQt0soXfe4RwlQNchNByi7wbcMAY4geAwFEC7sJpQZ2EZc6y8fhRc6jG2OXV5RC6NPywDIER-m5el3G0xM2YKrPfEpjbxrcCfKmzKktk0rmwInObF-BEQEC_pYdU7gftdBs5zIjEYTzuA6n9l11HLPB02KEDA%3D" },
+        { "label": "Replication package", "url": "https://osf.io/ns2f4" }
+      ]
     },
     {
-      "year": 2026,
       "title": "Land, wealth, and taxation",
-      "authors": "R. Brunetti, C. Gaigné, F. Moizeau",
+      "authors": "Brunetti, R., Gaigné, C. & Moizeau, F.",
+      "year": 2026,
       "venue": "American Economic Journal: Microeconomics",
       "status": "forthcoming",
-      "abstract": "Examines land's role in wealth inequality and develops an optimal tax approach combining land value taxation with lifetime wealth taxation.",
-      "links": [],
-      "selected": true
+      "abstract": "We examine the role of land in wealth dynamics, and its consequences on efficiency and inequality by focusing on the interplay among agents' bidding for location, mortgage market imperfections, and inheritance. We develop a model in which altruistic agents leave to their heirs a financial bequest and their housing wealth. The borrowing constraint generates a housing return premium and spatial wealth sorting, which translate into persistent inequality. Since altruism and the borrowing constraint distort land price formation, we discuss different corrective tax schedules. Land taxation cannot be disconnected from inheritance taxation, and must be levied on the inheriting generation.",
+      "links": [
+        { "label": "Working paper", "url": "https://drive.google.com/file/d/1YlqsoiDjfmEGi_3gS3_R8PQSKRM_npho/view?usp=sharing" },
+        { "label": "Supplementary appendix", "url": "https://drive.google.com/file/d/1b4QD6YMe9-hwZJgpRUitlVQ0P8qcCaU9/view?usp=drive_link" },
+        { "label": "Op-ed (Italian)", "url": "https://www.editorialedomani.it/economia/tassare-successione-suolo-urbano-soluzione-nostri-piedi--p7pt1exl" },
+        { "label": "Op-ed (French)", "url": "https://theconversation.com/reduction-de-la-dette-publique-la-solution-pourrait-se-trouver-sous-nos-pieds-283218" }
+      ]
     },
     {
-      "year": 2026,
       "title": "Representative policymakers? A behavioural experiment with French politicians",
-      "authors": "R. Brunetti, M. Pourieux",
-      "venue": "Economica",
+      "authors": "Brunetti, R. & Pourieux, M.",
+      "year": 2026,
+      "venue": "Economica, 1–32",
       "status": "",
-      "abstract": "A behavioural experiment (N=1,415) analysing the alignment between politicians' decisions and citizens' preferences in taxation–redistribution scenarios.",
-      "links": [],
-      "selected": true
+      "abstract": "This study leverages an online behavioral experiment to analyze political representation—whether politicians' decisions align with citizens' preferences over the same issue—and behavioral representation—whether politicians' decisions align with citizens' decisions within the same decision environment. We recruited 760 local politicians and 655 non-politicians in France to participate as policy-makers in a taxation-redistribution game. In the game, two policy-makers compete to choose a flat tax rate for a group of citizens, who are selected from the French general population and state their preferred tax rate. We exogenously manipulate (i) the information provided to policy-makers about citizens' preferred tax rates and (ii) the degree of competition between policy-makers. Finally, we measure policy-makers' beliefs regarding both citizens' preferences and their competitor's choice. We observe that policy-makers positively react to the information, but they often deviate from it, which can be mostly explained by their beliefs about both citizens' preferences and their competitor's choices. Varying the degree of political competition has no impact on these results. Finally, we find that politicians believe citizens want lower tax rates and are more confident in their beliefs than non-politicians. Once beliefs are accounted for, we observe little differences between the two groups within the game. Our findings suggest that policy-makers act as pro-social agents who implement citizens' preferences based on their beliefs when they lack information about these preferences.",
+      "links": [
+        { "label": "Paper", "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/ecca.70043" }
+      ]
     },
     {
-      "year": 2025,
       "title": "How people understand voting rules",
-      "authors": "A. Baujard, R. Brunetti, I. Lebon, S. Marsilio",
+      "authors": "Baujard, A., Brunetti, R., Lebon, I. & Marsilio, S.",
+      "year": 2025,
       "venue": "Public Choice",
       "status": "",
-      "abstract": "A lab experiment examining comprehension of evaluative voting and majority judgment, finding heterogeneous understanding of vote aggregation under majority judgment.",
-      "links": [],
-      "selected": true
+      "abstract": "If individuals are to be empowered in their selection or use of a voting rule, it is necessary that they understand it. This paper analyzes people's understanding of two voting rules: evaluative voting and majority judgment. We first distinguish three components of understanding in this context: how to fill in the ballot; how votes are aggregated; and how to vote strategically. To measure each component, we draw on results from a lab experiment on incentivized voting where participants are exogenously assigned single-peaked preferences and answer comprehension questions on the rules employed. We find that most participants understand how to fill in the ballot and how votes are aggregated; however, participants' understanding of vote aggregation under majority judgment is lower and more heterogeneous. While some participants correctly understand its aggregation property, a sizable group fails to grasp it. We also observe no difference in voting behavior between evaluative voting and majority judgment: the data confirm the theoretical prediction that under evaluative voting there will be a greater incidence of strategic voting through the use of extreme grades, but contradict the prediction that under majority judgment voters will vote more sincerely. Finally, we find that with majority judgment, the better voters understand how votes are aggregated, the more they make use of extreme grades.",
+      "links": [
+        { "label": "Paper", "url": "https://link.springer.com/article/10.1007/s11127-025-01344-8" },
+        { "label": "Replication package", "url": "https://osf.io/q582y/overview" }
+      ]
     },
     {
-      "year": 2023,
       "title": "Credit market imperfections, urban land rents, and the Henry George theorem",
-      "authors": "R. Brunetti, C. Gaigné, F. Moizeau",
+      "authors": "Brunetti, R., Gaigné, C. & Moizeau, F.",
+      "year": 2023,
       "venue": "Revue économique, 74, 681–703",
       "status": "",
-      "abstract": "Analyses credit market effects on urban land pricing and derives optimal tax schedules under mortgage constraints.",
-      "links": [],
-      "selected": false
+      "abstract": "This paper investigates the credit market impact on urban land rents and the tax policy implications. We introduce a borrowing cost and a down-payment requirement in the canonical urban land use model. We first show that both imperfections lower equilibrium land prices in the most attractive city locations. This downward effect is more likely to occur when land is scarce and cities are large and endowed with inefficient transport infrastructures. Only the down-payment requirement generates utility differentials among homogeneous households (symmetry-breaking). We further show that the Henry George Theorem, which posits that a confiscatory tax on land rents is sufficient to finance public goods, needs to be amended as aggregate land rents are lower than public expenditures. Depending on the nature of mortgage market imperfections, we derive optimal tax schedules.",
+      "links": [
+        { "label": "Paper", "url": "https://doi.org/10.3917/reco.745.0681" }
+      ]
     }
   ],
   "working": [
     {
-      "year": 2025,
       "title": "Trickle-down economics, merit, and redistribution: an experiment with the poorest and richest US Americans",
-      "authors": "G. Grimalda, M. Marino, R. Brunetti",
+      "authors": "Grimalda, G., Marino, M. & Brunetti, R.",
       "venue": "",
-      "status": "under review",
-      "abstract": "An experimental study (N=2,346) investigating redistribution attitudes among extreme income groups, finding that philanthropic donations reduce redistribution demand among lower-income participants.",
-      "links": []
+      "status": "Under review",
+      "abstract": "Despite growing income inequality, demand for redistribution has remained stagnant, which is particularly puzzling for the poor. We investigate whether attitudes toward \"trickle-down\" economics and preferences for fairness affect demand for redistribution. We involve US residents in the bottom (N = 1,200) and top (N = 1,146) 20% of the income distribution in experimental redistributive decisions from high-income real-life entrepreneurs to low-income recipients. We find that entrepreneurs' activities with potential for trickle-down, such as high employment or innovation rates, are largely irrelevant to redistribution. Philanthropic donations, however, reduce redistribution demand among the poor. The most important factor for redistribution is the desire to sanction the \"undeserving poor\" and, to a lesser extent, to reward the \"deserving rich\", measured by daily working hours and the founding of the firm. Decisions by high-income and low-income participants generally follow the same patterns, are quantitatively similar, and are mediated by economic and political identity.",
+      "links": [
+        { "label": "Working paper", "url": "https://hal.science/hal-05112815" }
+      ]
     },
     {
-      "year": 2025,
       "title": "Municipalities' voting power and housing supply: evidence from French intermunicipal cooperation",
-      "authors": "R. Brunetti",
+      "authors": "Brunetti, R.",
       "venue": "",
-      "status": "under review",
-      "abstract": "Analyses how voting power shifts within local government councils affect housing density composition following municipal reform.",
-      "links": []
+      "status": "Under review",
+      "abstract": "This paper investigates how municipalities' voting power within intermunicipal communities' councils influences new housing supply. To achieve this, I collected an original dataset containing the number of delegates per municipality in French intermunicipal communities (IMCs) in a 6-year period. This allows me to compute the Banzhaf index, which provides a measure of each municipality's voting power within IMCs. First, I examine a central government reform that increased the size of IMCs and altered the distribution of voting power within IMCs. The reform reduced the average voting power of municipalities, with the strongest effect on those whose IMC expanded the most and had low to medium voting power before the reform. In contrast, the reform had a much smaller effect on the few central municipalities that already had very high voting power. This resulted in greater power inequality within IMCs. Second, I use an instrumental variable approach to study how the change in voting power caused by the reform affected new building. I find that a municipality's loss of voting power shifts the composition of its new construction toward multi-family units and away from single-family units, with no statistically significant change in the total number of permits it issues. This suggests that municipalities may use their voting power to restrict high-density housing developments, which are more likely to face negative perceptions from the local population than low-density housing.",
+      "links": [
+        { "label": "Working paper", "url": "https://hal.science/hal-05642466" }
+      ]
     }
   ],
   "wip": [
