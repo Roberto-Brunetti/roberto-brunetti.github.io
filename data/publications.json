@@ -21,6 +21,7 @@
   "published": [
     {
       "title": "Do grades have absolute meaning? An experiment on majority judgment",
+      "selected": true,
       "authors": "Delemazure, T., Baujard, A., Brunetti, R. & Bouveret, S.",
       "year": 2026,
       "venue": "Social Choice & Welfare",
@@ -33,6 +34,7 @@
     },
     {
       "title": "Land, wealth, and taxation",
+      "selected": true,
       "authors": "Brunetti, R., Gaigné, C. & Moizeau, F.",
       "year": 2026,
       "venue": "American Economic Journal: Microeconomics",
@@ -47,6 +49,7 @@
     },
     {
       "title": "Representative policymakers? A behavioural experiment with French politicians",
+      "selected": true,
       "authors": "Brunetti, R. & Pourieux, M.",
       "year": 2026,
       "venue": "Economica, 1–32",

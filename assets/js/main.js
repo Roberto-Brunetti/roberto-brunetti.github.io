@@ -76,6 +76,16 @@ async function loadPublications() {
   const data = await res.json();
   let i = 0;
 
+  // selected work (home landing) — featured, unnumbered
+  const sel = document.getElementById("selected-pubs");
+  if (sel) {
+    sel.innerHTML = data.published
+      .filter((p) => p.selected)
+      .slice(0, 3)
+      .map((p) => pubCard(p, i++))
+      .join("");
+  }
+
   // co-authors
   const co = document.getElementById("coauthors");
   if (co && data.coauthors) {
