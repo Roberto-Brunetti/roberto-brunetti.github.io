@@ -15,10 +15,15 @@ function pubCard(p, idx) {
   let cite = esc(p.authors);
   if (p.year) cite += ` (${esc(p.year)})`;
   if (!/[.!?]$/.test(cite)) cite += ".";
-  const tail = [];
-  if (p.venue) tail.push(`<span class="venue">${esc(p.venue)}</span>`);
-  if (p.status) tail.push(`<span class="status">${esc(p.status)}</span>`);
-  if (tail.length) cite += " " + tail.join(", ") + ".";
+  let tail = "";
+  if (p.venue) {
+    tail = `<span class="venue">${esc(p.venue)}</span>`;
+    if (p.pages) tail += `, ${esc(p.pages)}`;
+    if (p.status) tail += `, <span class="status">${esc(p.status)}</span>`;
+  } else if (p.status) {
+    tail = `<span class="status">${esc(p.status)}</span>`;
+  }
+  if (tail) cite += " " + tail + ".";
 
   const links = (p.links || [])
     .map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`)

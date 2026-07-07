@@ -20,7 +20,7 @@
   ],
   "published": [
     {
-      "title": "Do grades have absolute meaning? An experiment on majority judgment",
+      "title": "Do Grades Have Absolute Meaning? An Experiment on Majority Judgment",
       "selected": true,
       "authors": "Delemazure, T., Baujard, A., Brunetti, R. & Bouveret, S.",
       "year": 2026,
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "title": "Land, wealth, and taxation",
+      "title": "Land, Wealth, and Taxation",
       "selected": true,
       "authors": "Brunetti, R., Gaigné, C. & Moizeau, F.",
       "year": 2026,
@@ -48,11 +48,12 @@
       ]
     },
     {
-      "title": "Representative policymakers? A behavioural experiment with French politicians",
+      "title": "Representative Policymakers? A Behavioural Experiment with French Politicians",
       "selected": true,
       "authors": "Brunetti, R. & Pourieux, M.",
       "year": 2026,
-      "venue": "Economica, 1–32",
+      "venue": "Economica",
+      "pages": "1–32",
       "status": "",
       "abstract": "This study leverages an online behavioral experiment to analyze political representation—whether politicians' decisions align with citizens' preferences over the same issue—and behavioral representation—whether politicians' decisions align with citizens' decisions within the same decision environment. We recruited 760 local politicians and 655 non-politicians in France to participate as policy-makers in a taxation-redistribution game. In the game, two policy-makers compete to choose a flat tax rate for a group of citizens, who are selected from the French general population and state their preferred tax rate. We exogenously manipulate (i) the information provided to policy-makers about citizens' preferred tax rates and (ii) the degree of competition between policy-makers. Finally, we measure policy-makers' beliefs regarding both citizens' preferences and their competitor's choice. We observe that policy-makers positively react to the information, but they often deviate from it, which can be mostly explained by their beliefs about both citizens' preferences and their competitor's choices. Varying the degree of political competition has no impact on these results. Finally, we find that politicians believe citizens want lower tax rates and are more confident in their beliefs than non-politicians. Once beliefs are accounted for, we observe little differences between the two groups within the game. Our findings suggest that policy-makers act as pro-social agents who implement citizens' preferences based on their beliefs when they lack information about these preferences.",
       "links": [
@@ -60,7 +61,7 @@
       ]
     },
     {
-      "title": "How people understand voting rules",
+      "title": "How People Understand Voting Rules",
       "authors": "Baujard, A., Brunetti, R., Lebon, I. & Marsilio, S.",
       "year": 2025,
       "venue": "Public Choice",
@@ -72,10 +73,11 @@
       ]
     },
     {
-      "title": "Credit market imperfections, urban land rents, and the Henry George theorem",
+      "title": "Credit Market Imperfections, Urban Land Rents, and the Henry George Theorem",
       "authors": "Brunetti, R., Gaigné, C. & Moizeau, F.",
       "year": 2023,
-      "venue": "Revue économique, 74, 681–703",
+      "venue": "Revue économique",
+      "pages": "74, 681–703",
       "status": "",
       "abstract": "This paper investigates the credit market impact on urban land rents and the tax policy implications. We introduce a borrowing cost and a down-payment requirement in the canonical urban land use model. We first show that both imperfections lower equilibrium land prices in the most attractive city locations. This downward effect is more likely to occur when land is scarce and cities are large and endowed with inefficient transport infrastructures. Only the down-payment requirement generates utility differentials among homogeneous households (symmetry-breaking). We further show that the Henry George Theorem, which posits that a confiscatory tax on land rents is sufficient to finance public goods, needs to be amended as aggregate land rents are lower than public expenditures. Depending on the nature of mortgage market imperfections, we derive optimal tax schedules.",
       "links": [
@@ -85,7 +87,7 @@
   ],
   "working": [
     {
-      "title": "Trickle-down economics, merit, and redistribution: an experiment with the poorest and richest US Americans",
+      "title": "Trickle-Down Economics, Merit, and Redistribution: An Experiment with the Poorest and Richest US Americans",
       "authors": "Grimalda, G., Marino, M. & Brunetti, R.",
       "venue": "",
       "status": "Under review",
@@ -95,7 +97,7 @@
       ]
     },
     {
-      "title": "Municipalities' voting power and housing supply: evidence from French intermunicipal cooperation",
+      "title": "Municipalities' Voting Power and Housing Supply: Evidence from French Intermunicipal Cooperation",
       "authors": "Brunetti, R.",
       "venue": "",
       "status": "Under review",
@@ -107,19 +109,19 @@
   ],
   "wip": [
     {
-      "title": "Mediation, fairness, and efficiency in bargaining",
+      "title": "Mediation, Fairness, and Efficiency in Bargaining",
       "authors": "with J. V. Ferreira, B. Tarroux"
     },
     {
-      "title": "United we fall? Reelection of mayors in merged municipalities",
+      "title": "United We Fall? Reelection of Mayors in Merged Municipalities",
       "authors": "with P. Mille, S. Paty"
     },
     {
-      "title": "Merit, environmental externalities, and redistribution: an experiment",
+      "title": "Merit, Environmental Externalities, and Redistribution: An Experiment",
       "authors": "with F. Gonzalez, M. Marino, J. Mollerstrom"
     },
     {
-      "title": "An experiment on the number of candidates in approval voting",
+      "title": "An Experiment on the Number of Candidates in Approval Voting",
       "authors": "with A. Baujard, J. Lang, T. Delemazure"
     }
   ]

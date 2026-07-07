@@ -199,6 +199,10 @@ a:hover { font-style: italic; }
 /* ---------- sections ---------- */
 section { padding: 30px 0; }
 [id] { scroll-margin-top: 74px; }
+
+/* ---------- research page accents ---------- */
+.research .group { color: var(--accent-text); }
+.research .pub .venue { color: var(--accent-text); }
 .section-head {
   display: flex; align-items: baseline; justify-content: space-between;
   border-top: 1px solid var(--border);
@@ -289,12 +293,10 @@ h3.group { font-size: 15px; font-weight: 600; color: var(--text-muted); text-tra
 .material-list a:hover { color: var(--accent-text); }
 
 /* ---------- quote generator ---------- */
-.quote-box { display: flex; gap: 16px; align-items: flex-start; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; margin-bottom: 8px; }
-.q-credit { margin: 0 2px 30px; font-size: 12px; color: var(--text-muted); line-height: 1.5; }
-.q-credit a { color: var(--text-muted); }
+.quote-box { display: flex; gap: 16px; align-items: flex-start; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; margin-bottom: 30px; }
 .q-portrait { width: 64px; height: 82px; border-radius: 8px; object-fit: cover; object-position: 50% 12%; flex-shrink: 0; border: 1px solid var(--border); }
 .quote-box blockquote { margin: 0; flex: 1; min-width: 0; }
-.q-primary { margin: 0 0 6px; font-family: var(--font-serif); font-style: italic; font-size: 16px; color: var(--text); line-height: 1.6; }
+.q-primary { margin: 0 0 6px; font-family: var(--font-serif); font-style: italic; font-size: 16px; color: var(--text); line-height: 1.6; white-space: pre-line; }
 .q-secondary { margin: 0 0 8px; font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
 .q-author { margin: 0; font-size: 13px; color: var(--text-muted); }
 .quote-refresh { flex-shrink: 0; background: none; border: 1px solid var(--border-strong); color: var(--text-secondary); width: 34px; height: 34px; border-radius: 8px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
