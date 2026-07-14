@@ -208,11 +208,23 @@
         alt: ""
       }
     ];
-    let current = -1;
+    let bag = [];
+    let lastShown = -1;
+    function refillBag() {
+      bag = quotes.map((_, idx) => idx);
+      for (let k = bag.length - 1; k > 0; k--) {
+        const j = Math.floor(Math.random() * (k + 1));
+        [bag[k], bag[j]] = [bag[j], bag[k]];
+      }
+      // avoid showing the same quote twice in a row across reshuffles
+      if (bag.length > 1 && bag[bag.length - 1] === lastShown) {
+        [bag[bag.length - 1], bag[0]] = [bag[0], bag[bag.length - 1]];
+      }
+    }
     function newQuote() {
-      let i = Math.floor(Math.random() * quotes.length);
-      if (quotes.length > 1) { while (i === current) i = Math.floor(Math.random() * quotes.length); }
-      current = i;
+      if (bag.length === 0) refillBag();
+      const i = bag.pop();
+      lastShown = i;
       const q = quotes[i];
       const portrait = document.getElementById("q-portrait");
       if (q.img) {
