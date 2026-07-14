@@ -105,6 +105,16 @@
       "links": [
         { "label": "Working paper", "url": "https://hal.science/hal-05642466" }
       ]
+    },
+    {
+      "title": "Does Experience Foster Endorsement of Complex Voting Methods? Evidence From a Lab Experiment",
+      "authors": "Marsilio, S., Baujard, A. & Brunetti, R.",
+      "venue": "",
+      "status": "Under review",
+      "abstract": "Electoral reforms often depend on public endorsement, yet citizens typically evaluate institutional proposals they are unfamiliar with. This paper investigates if and how experiencing an alternative voting method influences subsequent endorsement. We report evidence from an incentivized laboratory experiment (N = 189) involving repeated elections, in which participants used either evaluative voting (EV) – based on quantitative grades aggregated by summation – or majority judgment (MJ), based on qualitative grades aggregated by the median. Preferences for voting methods were elicited both before and after participants experienced one alternative, allowing us to account for between- and within-subject effects. We found that experiencing a voting method significantly increased preferences for that method, even when complex. We investigated potential mechanisms driving this shift through self-interest, voter comprehension, valuing expressivity, and complexity aversion. Only complexity aversion significantly predicted support for EV upon experiencing the more demanding method MJ. However, a more difficult explanation of MJ’s tie-breaking procedure did not significantly decrease MJ’s endorsement even among complexity-averse respondents, underscoring the role of perceived – rather than objective – clarity. Overall, experiencing a complex voting method fosters familiarity rather than understanding, highlighting the risk that mere exposure may bias public evaluations of electoral reforms.",
+      "links": [
+        { "label": "Working paper", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7101008" }
+      ]
     }
   ],
   "wip": [
