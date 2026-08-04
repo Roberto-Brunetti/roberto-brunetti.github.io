@@ -1,22 +1,24 @@
 {
   "coauthors": [
-    { "name": "Antoinette Baujard" },
-    { "name": "Sylvain Bouveret" },
-    { "name": "Théo Delemazure" },
-    { "name": "João V. Ferreira" },
-    { "name": "Carl Gaigné" },
+    { "name": "Antoinette Baujard", "url": "https://www.gate.cnrs.fr/antoinette-baujard/" },
+    { "name": "Sylvain Bouveret", "url": "https://recherche.noiraudes.net/fr/" },
+    { "name": "Théo Delemazure", "url": "https://theo.delemazure.fr/" },
+    { "name": "João V. Ferreira", "url": "https://joaovferreira.weebly.com/" },
+    { "name": "Nicolas Frémeaux", "url": "https://sites.google.com/site/nicolasfremeaux/home" },
+    { "name": "Carl Gaigné", "url": "https://sites.google.com/site/carlgaigne/home" },
     { "name": "Federico Gonzalez" },
-    { "name": "Gianluca Grimalda" },
-    { "name": "Jérôme Lang" },
-    { "name": "Isabelle Lebon" },
-    { "name": "Maria Marino" },
-    { "name": "Simone Marsilio" },
-    { "name": "Pauline Mille" },
-    { "name": "Fabien Moizeau" },
-    { "name": "Johanna Mollerstrom" },
-    { "name": "Sonia Paty" },
-    { "name": "Matthieu Pourieux" },
-    { "name": "Benoit Tarroux" }
+    { "name": "Gianluca Grimalda", "url": "https://scholar.google.com/citations?user=BgralhoAAAAJ&hl=en" },
+    { "name": "Jérôme Lang", "url": "https://scholar.google.com/citations?user=cNgZXNcAAAAJ&hl=fr" },
+    { "name": "Isabelle Lebon", "url": "https://www.researchgate.net/profile/Isabelle-Lebon" },
+    { "name": "Paul Maarek", "url": "https://sites.google.com/site/paulmaarek2/home" },
+    { "name": "Maria Marino", "url": "https://sites.google.com/view/mariasmarino/home-page" },
+    { "name": "Simone Marsilio", "url": "https://sites.google.com/view/simonemarsilio/home" },
+    { "name": "Pauline Mille", "url": "https://sites.google.com/view/paulinemille/home" },
+    { "name": "Fabien Moizeau", "url": "https://sites.google.com/site/fabienmoizeau/" },
+    { "name": "Johanna Mollerstrom", "url": "https://sites.google.com/site/johannamollerstrom/home" },
+    { "name": "Sonia Paty", "url": "https://www.gate.cnrs.fr/sonia-paty/" },
+    { "name": "Matthieu Pourieux", "url": "https://mpourieux.wixsite.com/matthieu-pourieux" },
+    { "name": "Benoit Tarroux", "url": "https://sites.google.com/site/btarrouxrecherche/Home" }
   ],
   "published": [
     {
@@ -118,6 +120,10 @@
     }
   ],
   "wip": [
+    {
+      "title": "Earmarking and Preferences for Inheritance Taxation: An Experiment in France and the United States",
+      "authors": "with N. Frémeaux, P. Maarek"
+    },
     {
       "title": "Mediation, Fairness, and Efficiency in Bargaining",
       "authors": "with J. V. Ferreira, B. Tarroux"
