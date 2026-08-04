@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.12)  4 AUG 2026 08:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.12)  4 AUG 2026 09:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1037,9 +1037,9 @@ Overfull \hbox (20.38385pt too wide) in paragraph at lines 107--108
 texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2026/texmf-dist/fonts/enc/d
 vips/tex-gyre/q-ts1.enc}] [2] [3]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 220.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 224.
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-229.
+233.
 
 (c:/texlive/2026/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1058,14 +1058,14 @@ L3 programming layer <2026-05-26>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: AA7DD60D610EC575340298AB743AA920;1729.
+(rerunfilecheck)             Checksum: F54FEA7ECEF8B354E0BC25B484096D38;1704.
  ) 
 Here is how much of TeX's memory you used:
- 13850 strings out of 467167
- 221044 string characters out of 5413691
+ 13854 strings out of 467167
+ 221092 string characters out of 5413691
  685599 words of memory out of 5000000
  42792 multiletter control sequences out of 15000+600000
- 676893 words of font info for 112 fonts, out of 8000000 for 9000
+ 677095 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,13n,83p,999b,717s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2026
@@ -1073,7 +1073,7 @@ Here is how much of TeX's memory you used:
 type1/public/lm/lmssbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/
 lmsso10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/marvosym/marvosym.pf
 b><c:/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb>
-Output written on CV.pdf (4 pages, 175644 bytes).
+Output written on CV.pdf (4 pages, 175921 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams
