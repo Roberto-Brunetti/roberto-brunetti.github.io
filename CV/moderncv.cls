@@ -239,6 +239,7 @@
 \newcommand*{\listitemsymbol}{\labelitemi~}
 \newcommand*{\addresssymbol}{}
 \newcommand*{\mobilesymbol}{}
+\newcommand*{\phonesymbol}{}
 \newcommand*{\faxsymbol}{}
 \newcommand*{\emailsymbol}{}
 \newcommand*{\homepagesymbol}{}
