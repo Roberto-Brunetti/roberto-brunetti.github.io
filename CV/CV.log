@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.12)  4 AUG 2026 09:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.12)  19 AUG 2026 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1073,7 +1073,7 @@ Here is how much of TeX's memory you used:
 type1/public/lm/lmssbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/lm/
 lmsso10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/marvosym/marvosym.pf
 b><c:/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb>
-Output written on CV.pdf (4 pages, 175921 bytes).
+Output written on CV.pdf (4 pages, 175961 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams

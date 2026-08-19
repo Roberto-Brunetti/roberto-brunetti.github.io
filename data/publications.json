@@ -101,8 +101,8 @@
     {
       "title": "Municipalities' Voting Power and Housing Supply: Evidence from French Intermunicipal Cooperation",
       "authors": "Brunetti, R.",
-      "venue": "",
-      "status": "Under review",
+      "venue": "Public Choice",
+      "status": "Revise and resubmit",
       "abstract": "This paper investigates how municipalities' voting power within intermunicipal communities' councils influences new housing supply. To achieve this, I collected an original dataset containing the number of delegates per municipality in French intermunicipal communities (IMCs) in a 6-year period. This allows me to compute the Banzhaf index, which provides a measure of each municipality's voting power within IMCs. First, I examine a central government reform that increased the size of IMCs and altered the distribution of voting power within IMCs. The reform reduced the average voting power of municipalities, with the strongest effect on those whose IMC expanded the most and had low to medium voting power before the reform. In contrast, the reform had a much smaller effect on the few central municipalities that already had very high voting power. This resulted in greater power inequality within IMCs. Second, I use an instrumental variable approach to study how the change in voting power caused by the reform affected new building. I find that a municipality's loss of voting power shifts the composition of its new construction toward multi-family units and away from single-family units, with no statistically significant change in the total number of permits it issues. This suggests that municipalities may use their voting power to restrict high-density housing developments, which are more likely to face negative perceptions from the local population than low-density housing.",
       "links": [
         { "label": "Working paper", "url": "https://hal.science/hal-05642466" }
