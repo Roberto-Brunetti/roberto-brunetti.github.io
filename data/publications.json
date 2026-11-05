@@ -22,6 +22,21 @@
   ],
   "published": [
     {
+      "title": "Land, Wealth, and Taxation",
+      "selected": true,
+      "authors": "Brunetti, R., Gaigné, C. & Moizeau, F.",
+      "year": 2026,
+      "venue": "American Economic Journal: Microeconomics",
+      "pages": "18 (4), 249–278",
+      "status": "",
+      "abstract": "We examine the role of land in wealth dynamics, and its consequences on efficiency and inequality by focusing on the interplay among agents' bidding for location, mortgage market imperfections, and inheritance. We develop a model in which altruistic agents leave to their heirs a financial bequest and their housing wealth. The borrowing constraint generates a housing return premium and spatial wealth sorting, which translate into persistent inequality. Since altruism and the borrowing constraint distort land price formation, we discuss different corrective tax schedules. Land taxation cannot be disconnected from inheritance taxation, and must be levied on the inheriting generation.",
+      "links": [
+        { "label": "Paper", "url": "https://www.aeaweb.org/articles?id=10.1257/mic.20240094" },
+        { "label": "Ungated version", "url": "https://drive.google.com/file/d/1YlqsoiDjfmEGi_3gS3_R8PQSKRM_npho/view?usp=sharing" },
+        { "label": "Supplementary appendix", "url": "https://drive.google.com/file/d/1b4QD6YMe9-hwZJgpRUitlVQ0P8qcCaU9/view?usp=drive_link" }
+      ]
+    },
+    {
       "title": "Do Grades Have Absolute Meaning? An Experiment on Majority Judgment",
       "selected": true,
       "authors": "Delemazure, T., Baujard, A., Brunetti, R. & Bouveret, S.",
@@ -32,21 +47,6 @@
       "links": [
         { "label": "Paper", "url": "https://link.springer.com/epdf/10.1007/s00355-026-01665-7?sharing_token=m6FrJ6DtlgTaUeKQt0soXfe4RwlQNchNByi7wbcMAY4geAwFEC7sJpQZ2EZc6y8fhRc6jG2OXV5RC6NPywDIER-m5el3G0xM2YKrPfEpjbxrcCfKmzKktk0rmwInObF-BEQEC_pYdU7gftdBs5zIjEYTzuA6n9l11HLPB02KEDA%3D" },
         { "label": "Replication package", "url": "https://osf.io/ns2f4" }
-      ]
-    },
-    {
-      "title": "Land, Wealth, and Taxation",
-      "selected": true,
-      "authors": "Brunetti, R., Gaigné, C. & Moizeau, F.",
-      "year": 2026,
-      "venue": "American Economic Journal: Microeconomics",
-      "status": "forthcoming",
-      "abstract": "We examine the role of land in wealth dynamics, and its consequences on efficiency and inequality by focusing on the interplay among agents' bidding for location, mortgage market imperfections, and inheritance. We develop a model in which altruistic agents leave to their heirs a financial bequest and their housing wealth. The borrowing constraint generates a housing return premium and spatial wealth sorting, which translate into persistent inequality. Since altruism and the borrowing constraint distort land price formation, we discuss different corrective tax schedules. Land taxation cannot be disconnected from inheritance taxation, and must be levied on the inheriting generation.",
-      "links": [
-        { "label": "Working paper", "url": "https://drive.google.com/file/d/1YlqsoiDjfmEGi_3gS3_R8PQSKRM_npho/view?usp=sharing" },
-        { "label": "Supplementary appendix", "url": "https://drive.google.com/file/d/1b4QD6YMe9-hwZJgpRUitlVQ0P8qcCaU9/view?usp=drive_link" },
-        { "label": "Op-ed (Italian)", "url": "https://www.editorialedomani.it/economia/tassare-successione-suolo-urbano-soluzione-nostri-piedi--p7pt1exl" },
-        { "label": "Op-ed (French)", "url": "https://theconversation.com/reduction-de-la-dette-publique-la-solution-pourrait-se-trouver-sous-nos-pieds-283218" }
       ]
     },
     {
